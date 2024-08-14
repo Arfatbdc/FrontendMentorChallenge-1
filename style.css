@@ -21,15 +21,15 @@ div.intro {
     }
   }
 div img {
-    position: relative;
-    padding: 2rem;
+    position:relative;
+    margin: 2rem;
 }
 div.paragraph1 {
   margin: 2rem;
 }
 div.prepration {
   background-color: hsl(30, 18%, 95%);
-  padding: 2rem;
+  margin: 2rem;
 
 }
 div > h3 {
@@ -44,7 +44,6 @@ li::marker {
 
 div.ingredients {
   margin: 2rem;
-  padding: 5px;
   border-bottom: 1.5px ridge;
 }
 .ingredients h2 {
@@ -52,7 +51,6 @@ div.ingredients {
 }
 div.instruction {
   margin: 2rem;
-  padding: 5px;
   border-bottom: 1.5px ridge;
 }
 .instruction h2 {
@@ -60,7 +58,6 @@ div.instruction {
 }
 div.nutrition {
   margin: 2rem;
-  padding: 5px;
 }
 .nutrition > h2 {
   color: hsl(332, 51%, 32%);
