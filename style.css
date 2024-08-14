@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+  font-family: "Young Serif", "Outfit", sans-serif;
+  font-size: 1rem;
+  background-color: hsl(30, 54%, 90%);
+}
+
+div.intro {
+  margin: 2rem;
+  background: hsl(0, 0%, 100%);
+}
+@media only screen and (max-width:768px) {
+    body{
+      font-size: 0.5rem;
+      background-color: hsl(0, 0%, 100%) ;
+    }
+    div.intro {
+      width: 100%;
+      background: hsl(0, 0%, 100%);
+      padding: 1rem;
+    }
+  }
+div img {
+    position: relative;
+    padding: 2rem;
+}
+div.paragraph1 {
+  margin: 2rem;
+}
+div.prepration {
+  background-color: hsl(30, 18%, 95%);
+  padding: 2rem;
+
+}
+div > h3 {
+  color: hsl(332, 51%, 32%);
+}
+li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.span1 {
+  padding-left: 10px;
+}
+
+div.ingredients {
+  margin: 2rem;
+  padding: 5px;
+  border-bottom: 1.5px ridge;
+}
+.ingredients h2 {
+  color: hsl(332, 51%, 32%);
+}
+div.instruction {
+  margin: 2rem;
+  padding: 5px;
+  border-bottom: 1.5px ridge;
+}
+.instruction h2 {
+  color: hsl(332, 51%, 32%);
+}
+div.nutrition {
+  margin: 2rem;
+  padding: 5px;
+}
+.nutrition > h2 {
+  color: hsl(332, 51%, 32%);
+}
+.listNutrition {
+  margin: 0;
+  padding: 0;
+}
+ul.listNutrition > li {
+  border-bottom: 2px ridge;
+  list-style: none;
+}
+.span2 {
+  margin-left: 2rem;
+}
+li .strong2 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 350px;
+}
+.strong3 {
+  margin-left: 365px;
+  color: hsl(332, 51%, 32%);
+}
+.strong4 {
+  margin-left: 358px;
+  color: hsl(332, 51%, 32%);
+}
+.strong5 {
+  margin-left: 389px;
+  color: hsl(332, 51%, 32%);
+}
